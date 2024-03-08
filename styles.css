@@ -1,0 +1,107 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.home-page{
+    background-image: url(./images/homepage.jpg);
+    min-height:100%;
+    fill: url(./images/homepage.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background-color: rgba(255,255,255, 0.4);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    border-end-start-radius: 5px;
+    border-end-end-radius: 5px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10px;
+}
+.logo a{
+    font-size: 16px;
+    color: rgb(0,0, 0);
+    font-weight: bolder;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    gap: 5px;
+    margin: 5px 5px 5px 5px;
+}
+li a{font-weight: bolder;
+    font-size: 16px;
+    color: black;
+    font-style: solid;
+}
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Darker background on hover */
+}
+
+.about{
+background-image: url(./images/about.jpg);
+min-height :400px ;
+}
+.history{
+    background-image: url(./images/history.jpg);
+    min-height: 400px;
+}
+.Architecture{
+    background-image: url(./images/Archi.jpg);
+    min-height:400px ;
+}
+.Significance{
+    background-image: url(./images/signi.jpg);
+    min-height: 400px;
+}
+.Rituals{
+    background-image: url(./images/Rituals.jpg);
+    min-height: 600px;
+}
+.home-page,.about ,.history ,.Architecture, .Significance ,.Rituals{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    letter-spacing: 7px;   
+}
+.textbg{
+    text-transform: uppercase;
+    background-color:rgba(93, 142, 248, 0.486);
+    color: white;
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color:rgba(19, 63, 166, 0.6) ;
+    color: white;
+}
+.section-dark{
+    background-color:rgba(19, 63, 166, 1) ;
+    color: white;
+
+}
